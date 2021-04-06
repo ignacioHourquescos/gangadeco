@@ -1,11 +1,13 @@
 
 import './App.css';
 import ProductsScreen from './screens/ProductScreen'
+import BurgerMenu from './components/BurgerMenu/BurgerMenu'
 
 function App() {
-  return (
-
+  return (<>
+   <BurgerMenu />
         <ProductsScreen/>
+        </>
   );
 }
 
