@@ -3,7 +3,7 @@
 
 .product_container{
     width: 20%;
-    height: 200px;
+    height: 190px;
     margin: 8px;
     padding:0;
     display:flex;
@@ -49,7 +49,7 @@
             height: 25%;
             background-color: #f1d42daf;
             z-index: 10;
-            animation: 10s shake;
+            animation: 2s shake;
             animation-duration: infinite;
             border-radius: 0px 15px 0 100px;
 
@@ -74,6 +74,7 @@
             font-size:0.8rem;
             font-family: $font1;
             z-index: 10;
+            color:white;
             background-color:rgba(0, 0, 0, 0.37);
             border-radius: 15px 15px 0 0;
         }
