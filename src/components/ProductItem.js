@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './ProductItem.scss'
 
 
@@ -42,7 +42,7 @@ const ProductItem = props =>{
                            ''
                             
                     }
-                    <img className="image" src={product.imagen} />
+                    <img className="image" alt={product.title} src={product.imagen} />
                
                 </div>
 
